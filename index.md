@@ -1,5 +1,6 @@
 ---
 title: Compression Ratio
+description: ZIP's Site.
 ---
 ## ようこそ!!
 
@@ -66,6 +67,7 @@ Discord: [ZIPのサーバー](https://discord.gg/fh4AJJdcZb)
 ## Organizations
 ### ZS Studios
 ZS Studiosは、ZIPがリーダーを務めるゲームなどを開発するなにかです。よかったら参加してくれると嬉しいです。  
+
 ZS Studios Official Site: [https://zsstudios.github.io/ZS_Studios/](https://zsstudios.github.io/ZS_Studios/)  
 ZS Studios Discord: [ZS Studios](https://discord.gg/4FhXSBceMx)  
 ZS Studios Twitter: [ZSStudios1](https://twitter.com/ZSStudios1)  
@@ -73,8 +75,10 @@ ZS Studios GitHub: [zsstudios](https://github.com/zsstudios)
 
 ### Diverse Techs Circle
 Diverse Techs Circle (D-Techs Circle)は、「プログラミングや動画編集が好き。だけど一緒にできる仲間がいない。」そんな方のために作られたコミュニティです。デジタル技術の知見を共有し合い、共同開発を行います。  
+
 D-Techs Official Site: [https://dtechs.net/](https://dtechs.net/)  
 D-Techs Twitter: [@Dtechs_Circle](https://twiiter.com/Dtechs_Circle)  
 
 ### thinking
 thinkingは、Sorakimeさんが作ったクリエイターグループです。詳しくはSorakimeさんまで。  
+thinking official: [@thinking_grp](https://twitter.com/thinking_grp)  
