@@ -1,0 +1,11 @@
+header {
+    background-color: black;
+    color:aliceblue;
+}
+h1, h2, h3, h4{
+    font-family: 'DotGothic16', sans-serif;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
