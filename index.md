@@ -1,7 +1,6 @@
 ---
 title: Compression Ratio
 ---
-</style>
 ## ようこそ!!
 
 こんにちは!!ZIPです!!  
