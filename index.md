@@ -1,7 +1,11 @@
 ---
 title: Home
 ---
-
+<style type="text/css">
+html {
+    font-family: 'Note Sans JP'
+}
+</style>
 ## ようこそ!!
 
 こんにちは!!ZIPです!!  
