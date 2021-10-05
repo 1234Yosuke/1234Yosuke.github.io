@@ -77,7 +77,9 @@ ZS Studiosは、ZIPがリーダーを務めるゲームなどを開発するな�
 Official Site: [https://zsstudios.github.io/ZS_Studios/](https://zsstudios.github.io/ZS_Studios/)  
 
 ### Diverse Techs Circle
-Diverse Techs Circle (D-Techs Circle)は、「プログラミングや動画編集が好き。だけど一緒にできる仲間がいない。」そんな方のために作られたコミュニティです。デジタル技術の知見を共有し合い、共同開発を行います。  
+>「プログラミングが好き。だけど一緒にできる仲間がいない。」 そんな方はD-Techsへ。D-Techsはデジタル技術の知見を共有し合い、共同開発を行うサークルです。
+
+
 <div style="letter-spacing: 10px;">
     <a href="https://twitter.com/Dtechs_Circle"><img src="images/social_icons/twitter.png" style="width: 32px;"></a>
     <a href="https://github.com/Diverse-Techs-Circle"><img src="images/social_icons/github.png" style="width: 32px;"></a>
@@ -87,6 +89,8 @@ Diverse Techs Circle (D-Techs Circle)は、「プログラミングや動画編�
 Official Site: [https://dtechs.net/](https://dtechs.net/)  
 
 ### thinking
+>プログラマだけでなく、フォトグラファーなどのジャンルにとらわれないクリエイターが活躍する場。それが、thinking。
+
 thinkingは、Sorakimeさんが作ったクリエイターグループです。詳しくはSorakimeさんまで。  
 <div style="letter-spacing: 10px;">
     <a href="https://twitter.com/thinking_grp"><img src="images/social_icons/twitter.png" style="width: 32px;"></a>
