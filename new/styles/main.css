@@ -1,0 +1,7 @@
+header {
+    background-color: #ddd;
+    color: #555;
+}
+.menu {
+    display: inline-block;
+}
