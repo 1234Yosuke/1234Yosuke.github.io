@@ -1,10 +1,12 @@
-html body {
+* {
     margin:0;
 }
 header {
+    margin:0;
     background-color: #ddd;
     color: #555;
 }
 .menu .menu-item {
+    list-style-type: none;
     display: inline-block;
 }
