@@ -1,7 +1,17 @@
+header {
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+}
+
 h1 {
-    font-size: 15vw;
+    font-size: 7vw;
     text-align: center;
 }
 h2 {
-    font-size: 7vw;
+    font-size: 5vw;
+}
+
+.profile {
+    font-size: 3vw;
+    text-align: center;
 }
