@@ -8,6 +8,8 @@
 
     body {
         font-family: 'Zen Kaku Gothic New', sans-serif;
+        background-color: #fafafa;
+        color: #000000
     }
 
     header {
@@ -16,7 +18,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        background-image: url(../images/background.jpg);
+        background-image: url(../images/background.png);
         background-attachment: fixed;
     }
 
@@ -64,6 +66,9 @@
     main {
         margin-top: 3vw;
         margin-bottom: 3vw;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     footer {
@@ -122,13 +127,11 @@
     
     .column {
         width: 100%;
-        margin: 0;
         clear: left;
     }
 
     .column-inner {
-        margin-left: 5vw;
-        margin-right: 5vw;
+        width: auto;
     }
 
     .column img {
@@ -145,8 +148,26 @@
 
     .column-item {
         margin: 1vw;
-        width: 20vw;
+        width: 40%;
+        min-height: 7vw;
+        padding: 1vw;
+        background-color: #ffffff;
         float: left;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #555555;
+        transition: 0.7s;
+    }
+    .column-item:hover {
+        margin: 1vw;
+        width: 40%;
+        padding: 1vw;
+        background-color: #eeeeee;
+        float: left;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #555555;
+    }
+    .column-item > a > img {
+        border-radius: 5px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -158,6 +179,8 @@
 
     body {
         font-family: 'Zen Kaku Gothic New', sans-serif;
+        background-color: #fafafa;
+        color: #000000;
     }
 
     header {
@@ -166,7 +189,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        background-image: url(../images/background.jpg);
+        background-image: url(../images/background.png);
         background-attachment: fixed;
     }
 
