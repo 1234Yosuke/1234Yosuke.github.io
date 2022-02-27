@@ -9,7 +9,7 @@
     body {
         font-family: 'Zen Kaku Gothic New', sans-serif;
         background-color: #fafafa;
-        color: #000000
+        color: #000000;
     }
 
     header {
@@ -214,21 +214,23 @@
         font-family: 'Lobster Two', cursive;
     }
     h2 {
-        margin-top: 1vw;
+        margin-top: 2vw;
         margin-left: 1vw;
-        font-size: 5vw;
+        font-size: 35px;
         font-family: Barlow, sans-serif;
         font-weight: bold;
     }
     h3 {
         margin-top: 1vw;
         margin-left: 1.5vw;
-        font-size: 4vw;
+        font-size: 25px;
         font-weight: bold;
     }
 
     p {
+        margin-top: 2vw;
         margin-left: 2vw;
+        font-size: 15px;
     }
 
     main {
@@ -258,7 +260,7 @@
 
     .profile {
         margin: 0;
-        font-size: 3vw;
+        font-size: 15px;
         text-align: center;
     }
 
@@ -293,11 +295,12 @@
     .column {
         width: 100%;
         margin: 0;
+        margin-top: 3vw;
     }
 
     .column p {
         margin-top: 1vw;
-        font-size: 3vw;
+        font-size: 20px;
     }
 
     .column-inner {
@@ -319,7 +322,22 @@
 
     .column-item {
         margin: 1vw;
-        width: 20vw;
+        width: 70vw;
+        min-height: 7vw;
+        padding: 1vw;
+        background-color: #ffffff;
         float: left;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #555555;
+        transition: 0.7s;
+    }
+    .column-item:hover {
+        margin: 1vw;
+        width: 70vw;
+        padding: 1vw;
+        background-color: #eeeeee;
+        float: left;
+        border-radius: 5px;
+        box-shadow: 2px 2px 4px #555555;
     }
 }
