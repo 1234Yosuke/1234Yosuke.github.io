@@ -334,9 +334,6 @@
         transition: 0.7s;
     }
     .column-item:hover {
-        margin: 1vw;
-        width: 85vw;
-        padding: 1vw;
         background-color: #eeeeee;
         float: left;
         border-radius: 5px;
