@@ -324,7 +324,7 @@
         margin: 1vw;
         margin-top: 3vw;
         margin-bottom: 3vw;
-        width: 70vw;
+        width: 85vw;
         min-height: 7vw;
         padding: 1vw;
         background-color: #ffffff;
@@ -335,7 +335,7 @@
     }
     .column-item:hover {
         margin: 1vw;
-        width: 70vw;
+        width: 85vw;
         padding: 1vw;
         background-color: #eeeeee;
         float: left;
