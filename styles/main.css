@@ -84,11 +84,12 @@
         margin-bottom: 3vw;
     }
 
-    .about img {
+    .about > img {
         width: 25vw;
         height: 25vw;
         margin-top: 5vw;
         margin-bottom: 3vw;
+        box-shadow: #555555 4px 4px 10px, #ffffff -4px -4px 10px;
     }
 
     .profile {
