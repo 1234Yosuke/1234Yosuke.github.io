@@ -142,3 +142,21 @@ p {
     0%{ transform:rotate(180deg);}
     100%{ transform:rotate(-180deg); }
 }
+
+@media screen and (max-width: 800px) {
+    .link {
+        width: 80vw;
+    }
+    #circle1 {
+        width: 200px;
+        height: 200px;
+    }
+    #circle2 {
+        width: 200px;
+        height: 200px;
+    }
+    #circle3 {
+        width: 200px;
+        height: 200px;
+    }
+}
