@@ -83,6 +83,44 @@ p {
     background-color: #008CFE;
 }
 
-#particleAria {
-    position: fixed;
+#hi {
+    background-color: #ffffff;
 }
+
+#circle1 {
+    position: fixed;
+    left: -30vw;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FFF7CB; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    animation: circle1 40s infinite;
+    transform-origin: 30vw;
+}
+#circle2 {
+    position: fixed;
+    right: -10vw;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FFF7CB; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    animation: circle2 30s infinite;
+    transform-origin: 30vw;
+}
+@keyframes circle1 {
+  0%{ transform:rotate(0);}
+  100%{ transform:rotate(360deg); }
+}
+
+@keyframes circle2 {
+    0%{ transform:rotate(0);}
+    100%{ transform:rotate(-360deg); }
+  }
