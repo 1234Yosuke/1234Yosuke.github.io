@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('/assets/fonts/fonts.css');
+
+@font-face {
+    font-family: 'Harenosora';
+    src: url(./assets/fonts/Harenosora.otf) format('opentype');
+}
+
+body {
+    font-family: 'Harenosora', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #000000;
+}
+
+p {
+    font-family: 'Harenosora', sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+    -webkit-text-stroke: #000000 0.5px;
+}
+
+.link {
+    text-align: center;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link > ul > li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.link > ul > li > a {
+    font-family: 'Pacifico', cursive;
+    border-radius: 100px;
+    display: block;
+    width: 100%;
+}
+
+.link a {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    clear: both;
+}
+
+#twitter {
+    background-color: #00ACEE;
+}
+#instagram {
+    background-color: #E1306C;
+}
+#github {
+    background-color: #000000;
+}
+#note {
+    background-color: #41C9B4;
+}
+
+#thinking {
+    background-color: #000000;
+}
+#quaestio {
+    background-color: #F68EFF;
+}
+#liquidVerse {
+    background-color: #D34746;
+}
+#dtechs {
+    background-color: #008CFE;
+}
+
+#particleAria {
+    position: fixed;
+}
