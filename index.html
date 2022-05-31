@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<!--くっそ適当に作ってるのでコードは見ないでください(?)-->
-<head prefix="og: https://ogp.me/ns# fb: https://ogp.ne/ns/fb# website: https://ogp.me/ns/website#">
-    <meta charset="UTF-8">
+<head prefix="og: https://ogp.me/ns# fb: https://ogp.ne/ns/fb# website: https://ogp.me/ns/website#"><meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="ZIP(Twitter: @ZIP_Muryobochi)のウェブサイト。" name="description">
@@ -16,117 +14,66 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@ZIP_Muryobochi">
     <title>Compression Ratio</title>
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<!--だから見ないでって言ってるでしょ!!😠😡😠😡-->
 <body>
-    <header>
-        <div class="header-inner" id="header-inner">
-            <h1>Compression Ratio</h1>
-            <p class="sub-title">ZIP's Portfolio.</p>
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+    <div id="circle3"></div>
+    <div id="fullpage">
+        <div class="section" id="hi">
+            <h1>hi.</h1>
         </div>
-    </header>
-    <div class="menu-bar">
-        <ul>
-            <li class="menu-list"><a href="#about">About</a></li>
-            <li class="menu-list"><a href="#links">Links</a></li>
-            <li class="menu-list"><a href="#projects">Projects</a></li>
-            <li class="menu-list"><a href="#organizations">Organizations</a></li>
-        </ul>
+        <div class="section" id="about">
+            <h1>about</h1>
+            <p>色々やってる圧縮ファイルです。</p>
+            <p>特にKotlin得意でもないのにAndroidアプリ作ったり</p>
+            <p>コンデンサ爆発させたりするあほです。</p>
+            <p>Quaestioのリーダーであり、thinking副代表でもあります。</p>
+            <p>イメージカラーはZIPなのがあって黄色。</p>
+            <p>でも好きな色は緑。中でも若竹色がいいかな。</p>
+            <p>現在はインターネットを自由気ままに漂っています。</p>
+        </div>
+        <div class="section" id="links">
+            <h1>links</h1>
+            <div class="link">
+                <ul>
+                    <li><a id="twitter" href="https://twitter.com/ZIP_Muryobochi">Twitter</a></li>
+                    <li><a id="instagram" href="https://instagram.com/zip_muryobochi">Instagram</a></li>
+                    <li><a id="github" href="https://github.com/1234yosuke">GitHub</a></li>
+                    <li><a id="note" href="https://note.com/superzip">note</a></li>
+                </u;>
+            </div>
+        </div>
+        <div class="section" id="skill">
+            <h1>skill</h1>
+            <p>無能で有名です。</p>
+            <p>ほとんど何もできません。</p>
+            <p>やったことある言語といえば</p>
+            <p>C/C++, Python, Kotlin, JavaScript, Arduino</p>
+            <p>って感じですかね。</p>
+            <p>正直全部苦手です。</p>
+        </div>
+        <div class="section" id="organization">
+            <h1>organization</h1>
+            <div class="link">
+                <ul>
+                    <li><a id="thinking" href="https://twitter.com/thinking_grp">thinking</a></li>
+                    <li><a id="quaestio" href="https://twitter.com/QuaestioJP">Quaestio</a></li>
+                    <li><a id="liquidVerse" href="https://twitter.com/LiquidVerse_JP">Liquid Verse</a></li>
+                    <li><a id="dtechs" href="https://twitter.com/Dtechs_Circle">D-techs Circle</a></li>
+                </ul>
+            </div> 
+        </div>
     </div>
-    <main>
-        <h2 id="about">About</h2>
-        <div class="about">
-            <img src="images/ZIP.png" width="25%" style="border-radius: 50%;">
-            <p class="profile">プログラミングと電子工作が好きな圧縮ファイル。いろいろやってます。</p>
-        </div>
-
-        <h2 id="links">Links</h2>
-        <div class="column">
-            <div class="column-inner">
-                <div class="column-item">
-                    <a href="https://return-eclipse.hateblo.jp">
-                        <img src="images/links/return-eclipse.png">
-                        <h3>回帰日食</h3>
-                        <p>僕のブログです。</p>
-                    </a>
-                </div>
-                <div class="column-item">
-                    <a href="https://twitter.com/ZIP_Muryobochi">
-                        <img src="images/links/twitter.png">
-                        <h3>Twitter</h3>
-                        <p>僕のTwitterアカウントです。</p>
-                    </a>
-                </div>
-                <div class="column-item">
-                    <a href="https://github.com/1234yosuke">
-                        <img src="images/links/github.png">
-                        <h3>GitHub</h3>
-                        <p>僕のGitHubアカウントです。</p>
-                    </a>
-                </div>
-                <div class="column-item">
-                    <a href="https://instagram.com/zip_muryobochi">
-                        <img src="images/links/instagram.png">
-                        <h3>Instagram</h3>
-                        <p>僕のInstagramアカウントです。</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <h2 id="projects">Projects</h2>
-        <div class="column">
-            <div class="column-inner">
-                <div class="column-item">
-                    <a href="https://github.com/1234Yosuke/TextP">
-                        <h3>TextP</h3>
-                        <p>僕が適当に作っているPython製のテキストエディターです。</p>
-                    </a>
-                </div>
-                <div class="column-item">
-                    <a href="https://github.com/1234yosuke/syogatsu_browser">
-                        <h3>Syogatsu Browser</h3>
-                        <p>僕が適当に作っているブラウザです。</p>
-                    </a>
-               </div>
-            </div>
-        </div>
-
-        <h2 id="organizations">Organizations</h2>
-
-        <h3>thinking</h3>
-        <blockquote><p>プログラマだけでなく、フォトグラファーなどのジャンルにとらわないクリエイターが活躍できる場。</blockquote></p>
-        <p>一応副代表やってます。</p>
-        <div style="margin-top: 1.5vw; margin-bottom: 2vw; margin-left: 1.5vw; letter-spacing: 10px;">
-            <a href="https://twitter.com/thinking_grp"><img src="images/social_icons/twitter.png" style="width: 32px;"></a>
-            <a href="https://github.com/thinking-grp"><img src="images/social_icons/github.png" style="width: 32px;"></a>
-            <a href="https://note.com/thinking_grp"><img src="images/social_icons/note.png" style="width: 32px;"></a>
-            <a href="https://thinking-grp.github.io"><img src="images/social_icons/net.png" style="width: 32px;"></a>
-        </div>
-        <h3>D-Techs Circle</h3>
-        <blockquote><p>「プログラミングや映像制作、イラストなどが好き。だけど一緒にできる仲間がいない。」D-Techsはそんな方のために作られた、デジタル技術を共有し合い、共同で開発/創作を行うDiscord上のサークルです。</blockquote></p>
-        <div style="margin-top: 1.5vw; margin-bottom: 2vw; margin-left: 1.5vw; letter-spacing: 10px;">
-            <a href="https://twitter.com/Dtechs_Circle"><img src="images/social_icons/twitter.png" style="width: 32px;"></a>
-            <a href="https://github.com/Diverse-Techs-Circle"><img src="images/social_icons/github.png" style="width: 32px;"></a>
-            <a href="https://discord.com/invite/WGT2D4rdY4"><img src="images/social_icons/discord.png" style="width: 32px;"></a>
-        </div>
-        <h3>Liquid Verse</h3>
-        <p>なんか色々やってるクリエイターグループと思われるものです。</p>
-        <div style="margin-top: 1.5vw; margin-bottom: 2vw; margin-left: 1.5vw; letter-spacing: 10px;">
-            <a href="https://twitter.com/LiquidVerse_JP"><img src="images/social_icons/twitter.png" style="width: 32px;"></a>
-            <a href="https://github.com/liquidverse"><img src="images/social_icons/github.png" style="width: 32px;"></a>
-            <a href="https://liquidverse.github.io"><img src="images/social_icons/net.png" style="width: 32px;"></a>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; ZIP 2021</p>
-    </footer>
 </body>
 </html>
